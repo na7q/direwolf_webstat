@@ -213,7 +213,7 @@ $if = $_SESSION['if'];
                </td>
                <td align="center">
                   <?php
-                     echo $nm[2]." Km"
+                     echo $nm[2]." Miles"
                      ?>
                </td>
                <td align="center">
