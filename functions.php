@@ -139,7 +139,7 @@ function haversine($frame)
 
 	$angle = 2 * asin(sqrt(pow(sin($latDelta / 2), 2) +
 	cos($latFrom) * cos($latTo) * pow(sin($lonDelta / 2), 2)));
-	$distance = round($angle * 6371, 2); //gives result in km rounded to 2 digits after comma
+	$distance = round($angle * 3958.756, 2); //gives result in km rounded to 2 digits after comma
 
 	$declat = round($declat, 5);
 	$declon = round($declon, 5);
